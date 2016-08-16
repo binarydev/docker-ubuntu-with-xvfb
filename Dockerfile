@@ -28,4 +28,5 @@ RUN apt-get install --fix-missing -y \
   gcc-multilib \
   g++-multilib \
   git \
-  wget
+  wget \
+  vim
