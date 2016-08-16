@@ -28,4 +28,4 @@ RUN apt-get install --fix-missing -y \
   gcc-multilib \
   g++-multilib \
   git \
-  wgetcd
+  wget
