@@ -6,6 +6,7 @@ RUN apt-get update
 
 # Installing the OS pre-reqs needed to run Nightmare and generate screenshots/pdfs with proper fonts
 RUN apt-get install --fix-missing -y \
+  unzip \
   xvfb \
   x11-xkb-utils \
   xfonts-100dpi \
